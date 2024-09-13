@@ -1,0 +1,18 @@
+public class Main {
+  public static void main(String[] args) {
+
+    int a = 1;
+    int b = 2;
+    int c = 3;
+    String d = "3";
+    boolean e = true;
+    boolean f = false;
+
+    System.out.println("a+b**c-c%2: " + (a+b*c-c%2));
+    System.out.println("b(c/a-a): "  + (b * (c / a - a)));
+    System.out.println("(c== d) != e: " + ((c == Integer.parseInt(d)) != e));
+    System.out.println("(b>= a) == f: " + ((b >= a) == f));
+    System.out.println("(c == d) && (b %1== 0): " + ((c == Integer.parseInt(d)) && (b % 1 == 0)));
+    System.out.println("e || (b>c || f = )" + (e || (b > c || f)));
+  }
+}
